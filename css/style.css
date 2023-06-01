@@ -37,4 +37,14 @@
 .content__main {
     border-radius: 25px;
     background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.content__main__result {
+    border: 1px solid blue;
+}
+
+.content__main__summary {
+    border: 1px solid green;
 }
