@@ -43,6 +43,7 @@
 
 .content__main__result {
     border: 1px solid blue;
+    background: linear-gradient(var(--light-slate-blue),var(--light-royal-blue));
 }
 
 .content__main__summary {
