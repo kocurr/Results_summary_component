@@ -56,12 +56,6 @@
     padding: 2.5rem 1rem;
 }
 
-.content__main__summary {
-    border-radius: 30px;
-    width: 50%;
-    text-align: left;
-}
-
 .content__main__result--score {
     border-radius: 50%;
     width: 185px;
@@ -90,12 +84,34 @@
 
 .content__main__result--txt {
     margin: auto;
-    width: 75%;
+    width: 70%;
 }
 
 /* Left site */
+.content__main__summary {
+    border-radius: 30px;
+    width: 50%;
+    text-align: left;
+    padding: 2.5rem 1rem;
+}
+
 .content__main__summary--badge {
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 5% 50% 20%;
+    justify-content: space-evenly; 
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.content__main__summary--badge img {
+    width: 125%;
+}
+.content__main__summary__atr--reaction {
+    background-color: hsl(0, 100%, 67%, 0.05);
+    border-radius: 15px;
+}
+
+.content__main__summary__atr--memory {
+    background-color: hsl(39, 100%, 56%, 0.05);
+    border-radius: 15px;
 }
