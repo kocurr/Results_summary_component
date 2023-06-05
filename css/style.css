@@ -115,3 +115,13 @@
     background-color: hsl(39, 100%, 56%, 0.05);
     border-radius: 15px;
 }
+
+.content__main__summary__atr--verbal {
+    background-color: hsl(166, 100%, 37%, 0.05);
+    border-radius: 15px;
+}
+
+.content__main__summary__atr--visual {
+    background-color: hsl(234, 85%, 45%, 0.05);
+    border-radius: 15px;
+}
