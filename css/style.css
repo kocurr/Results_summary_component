@@ -32,12 +32,13 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--pale-blue);
+    /* background-color: var(--pale-blue); */
 }
 
 .content__main {
     border-radius: 30px;
     background-color: var(--white);
+    box-shadow: 0 0 40px var(--pale-blue);
     display: flex;
     justify-content: center;
     text-align: center;
