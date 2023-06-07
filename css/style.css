@@ -107,6 +107,7 @@
     justify-content: space-evenly; 
     padding: 1rem 0;
     margin: 1rem 0;
+    align-items: center;    
 }
 
 .content__main__summary--badge img {
@@ -165,4 +166,37 @@
 .content__main__summary--btn a {
     text-decoration: none;
     color: var(--white);
+}
+
+@media only screen and (max-width: 900px) {
+    .content__main__summary--badge {
+        display: grid;
+        grid-template-columns: 5% 45% 20%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content__main__summary--badge {
+        display: grid;
+        grid-template-columns: 5% 25% 20%;
+    }
+}
+@media only screen and (max-width: 781px) {
+    .content {
+        height: auto;
+    }
+    .content__main {
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        text-align: center;
+    }
+    .content__main__result {
+        border-radius: 0 0 30px 30px;    
+        width: 100%;
+    }
+    .content__main__summary {
+        width: 100%;
+    }
+
 }
