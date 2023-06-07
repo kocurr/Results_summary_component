@@ -32,7 +32,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-color: var(--pale-blue); */
 }
 
 .content__main {
@@ -125,4 +124,17 @@
 .content__main__summary__atr--visual {
     background-color: hsl(234, 85%, 45%, 0.05);
     border-radius: 15px;
+}
+
+.content__main__summary--btn {
+    background-color: var(--dark-gray-blue);
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 1.8rem;
+    padding: 1rem 0;
+}
+
+.content__main__summary--btn a {
+    text-decoration: none;
+    color: var(--white);
 }
